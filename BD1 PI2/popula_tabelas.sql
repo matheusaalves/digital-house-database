@@ -16,7 +16,7 @@ VALUES
 	(null, 100, 34, 5),
 	(null, 200, 58, 10),
 	(null, 500, 120, 50);
-    
+
 SELECT * FROM plano_internet;
 
 INSERT INTO cliente (cliente_id, nome, sobrenome, data_de_nascimento, localizacao_id, plano_internet_id)
